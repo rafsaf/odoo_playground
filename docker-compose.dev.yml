@@ -1,0 +1,14 @@
+   
+version: "3.3"
+
+services:
+  db:
+    image: postgres
+    environment:
+      - POSTGRES_PASSWORD=very_strong_password
+      - POSTGRES_USER=very_unique_user
+      - POSTGRES_DB=postgres
+    ports:
+      - 5400:5432
+    volumes:
+      - ./data/db:/var/lib/postgresql/data
