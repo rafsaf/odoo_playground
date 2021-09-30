@@ -1,5 +1,5 @@
 [options]
-addons_path = /home/rafsaf/projects/odoo_playground/odoo/addons
+addons_path = /home/rafsaf/projects/odoo_playground/odoo/addons,/home/rafsaf/projects/odoo_playground/custom
 admin_passwd = $pbkdf2-sha512$25000$yBlDqHWOkfJ.j7G2tvZeSw$kqRtwmnqe.1KyR9.zo.OCoz7L4/GBBQNcJVqP9/1C6i395Obq9gltFcEJO8nOVUT4cthEJw1sSi1QJTlzeqHMw
 csv_internal_sep = ,
 data_dir = /home/rafsaf/.local/share/Odoo
